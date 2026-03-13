@@ -1,0 +1,169 @@
+body{
+padding-bottom:200px;
+margin:0;
+font-family:Arial;
+background:#f6f6f6;
+}
+
+/* top bar */
+
+.top-bar{
+background:#ff5200;
+color:white;
+padding:15px;
+}
+
+/* search */
+
+.search{
+padding:10px;
+background:white;
+}
+
+.search input{
+width:100%;
+padding:10px;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+/* categories */
+
+.categories{
+display:flex;
+overflow-x:auto;
+padding:10px;
+background:white;
+}
+
+.cat{
+text-align:center;
+margin-right:15px;
+}
+
+.cat img{
+width:60px;
+height:60px;
+border-radius:50%;
+}
+
+/* products */
+
+
+.products{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+padding:10px;
+padding-bottom:140px;
+}
+
+
+.product{
+background:white;
+padding:10px;
+border-radius:10px;
+margin-bottom:10px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product img{
+width:30%;
+border-radius:8px;
+}
+
+.product button{
+background:#ff5200;
+color:white;
+border:none;
+padding:8px 12px;
+border-radius:5px;
+}
+
+/* bottom nav */
+
+.cart-box{
+position:sticky;
+bottom:0;
+background:#ff5200;
+padding:12px;
+text-align:center;
+}
+
+.cart-item{
+display:flex;
+gap:15px;
+background:white;
+padding:10px;
+margin:10px;
+border-radius:10px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.bottom-nav{
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+background:white;
+display:flex;
+justify-content:space-around;
+padding:10px;
+border-top:1px solid #ddd;
+}
+
+.checkout-container{
+padding:20px;
+}
+
+.checkout-container input,
+.checkout-container select{
+
+width:100%;
+padding:10px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:6px;
+
+}
+
+.checkout-container button{
+
+width:100%;
+padding:12px;
+background:#ff5200;
+color:white;
+border:none;
+border-radius:6px;
+font-size:16px;
+
+}
+
+.login-box{
+
+width:300px;
+margin:50px auto;
+display:flex;
+flex-direction:column;
+gap:10px;
+
+}
+
+.login-box input{
+
+padding:10px;
+border:1px solid #ccc;
+border-radius:6px;
+
+}
+
+.login-box button{
+
+padding:10px;
+background:#ff5200;
+color:white;
+border:none;
+border-radius:6px;
+
+}
+
